@@ -30,7 +30,7 @@ int main(){
 
         start = clock();
 
-        //Assume that running time here is 1000000
+        //Assume that running time here is 100000
 
         for(int i = 0; i < 100000; ++i){
             write(p1[1], ping, 1);
