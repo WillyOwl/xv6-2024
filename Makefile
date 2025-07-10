@@ -198,7 +198,8 @@ UPROGS=\
 	$U/_pingpong\
 	$U/_find\
 	$U/_xargs\
-
+	$U/_uptime\
+	$U/_kfreemem\
 
 ifeq ($(LAB),syscall)
 UPROGS += \
